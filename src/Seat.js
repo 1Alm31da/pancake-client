@@ -25,6 +25,10 @@ export default function Seat() {
         socket.emit("send-class", updatedSeats);
     };
 
+    const saveSeatChanges = (updatedSeats) => {
+        socket.emit("save-seats", updatedSeats);
+    };
+
     const eventHandler = (rowIndex, seatIndex) => {
         console.log(rowIndex, seatIndex);
         console.log(rows);
@@ -67,7 +71,7 @@ export default function Seat() {
                     }
                 }
             }
-            socket.emit("send-class", updatedSeats);
+            saveSeatChanges(updatedSeats);
             setRows(updatedSeats);
         });
 
