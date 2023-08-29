@@ -1,0 +1,89 @@
+.navbarMain {
+    margin: auto;
+    width: 95%;
+    height: 60px;
+    background-color: #c30000;
+    color: white;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+}
+
+.left-text{
+    padding: 10px;
+}
+
+.back-option {
+    float: left;
+    margin-top: 10px;
+    vertical-align: middle;
+    font-weight: 300;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.game-modalidade {
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: -10px 0 0 -10px;
+    font-size: 14px;
+}
+
+.game-liga {
+    margin-top: 5px;
+    font-weight: 200;
+}
+
+.home-cl {   
+    margin-left: 20px;
+    margin-top: 5px;
+    float: left;
+    font-size: 20px;
+}
+
+.vs {
+    margin-left: 10px;
+    margin-top: 5px;
+    float: left;
+    font-size: 20px;
+}
+
+.out-cl {
+    margin-left: 10px;
+    margin-top: 5px;
+    float: left;
+    font-size: 20px;
+}
+
+.right-text {
+    margin-top: -20px;
+    margin-right: 100px;
+}
+
+.date-game, .hour-game {
+    margin-top: -0px;
+    float: right;
+    font-size: 14px;
+}
+
+.place-game {
+    float: right;
+    font-size: 14px;
+    margin-right: -112px;
+}
+
+.vl {
+    margin-top: -19px;
+    margin-right: -140px;
+    float: right;
+    border-left: 2px solid white;
+    height: 60px;
+  }
+
+  .icon-fa {
+    float: right;
+    margin-right: -185px;
+  }

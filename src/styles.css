@@ -1,0 +1,84 @@
+h1 {
+ color:aliceblue;
+}
+
+.container {
+  text-align: center;
+}
+
+.button-33 {
+  background-color: #ffffff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  box-shadow: rgba(187, 44, 44, 0.2) 0 -5px 8px -4px inset,rgba(255, 254, 254, 0.15) 0 1px 2px,rgba(254, 254, 254, 0.15) 0 2px 4px,rgba(255, 254, 254, 0.15) 0 2px 4px,rgba(255, 255, 255, 0.15) 0 4px 6px,rgba(255, 255, 255, 0.15) 0 16px 32px;
+  color: red;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0.25px solid red;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 3px;
+  width: 60px;
+  height: 45px;
+}
+
+.button-33:hover {
+  box-shadow: rgba(187, 44, 44, 0.35) 0 -5px 8px -4px inset,rgba(187, 44, 44, 0.25) 0 1px 2px,rgba(187, 94, 44, 0.25) 0 2px 4px,rgba(187, 82, 44, 0.25) 0 4px 8px,rgba(187, 96, 44, 0.25) 0 4px 6px,rgba(187, 87, 44, 0.25) 0 6px 12px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.selected {
+  background-color: red;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  box-shadow: rgba(168, 187, 44, 0.2) 0 -25px 18px -14px inset,rgba(187, 44, 44, 0.15) 0 1px 2px,rgba(187, 44, 44, 0.15) 0 2px 4px,rgba(187, 44, 44, 0.15) 0 4px 8px,rgba(187, 44, 44, 0.15) 0 8px 16px,rgba(187, 44, 44, 0.15) 0 16px 32px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 3px;
+  width: 60px;
+  height: 45px;
+}
+
+.reserved {
+  background-color: rgb(134, 134, 134);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  box-shadow: rgba(158, 158, 158, 0.2) 0 -25px 18px -14px inset,rgba(181, 181, 181, 0.15) 0 1px 2px,rgba(184, 184, 184, 0.15) 0 2px 4px,rgba(174, 174, 174, 0.15) 0 4px 8px,rgba(170, 170, 170, 0.15) 0 8px 16px,rgba(182, 182, 182, 0.15) 0 16px 32px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 3px;
+  width: 60px;
+  height: 45px;
+}

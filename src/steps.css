@@ -1,0 +1,18 @@
+.main-steps {
+    margin: auto;
+    width: 95%;
+}
+
+.main-steps > div > p {
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    float: right;
+    margin-top: -10px;
+    margin-left: 40px;
+    color: #888;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.on-step {
+    color: #c30000 !important;
+}
