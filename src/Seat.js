@@ -4,8 +4,6 @@ import "./styles.css";
 
 export default function Seat() {
     const [socket, setSocket] = useState();
-    const [myState, setMyState] = useState("button-33");
-    const [activeState, setActiveState] = useState(false);
     const [rows, setRows] = useState({})
 
     useEffect(() => {
@@ -25,10 +23,6 @@ export default function Seat() {
 
     const emitSeatChanges = (updatedSeats) => {
         socket.emit("send-class", updatedSeats);
-    };
-
-    const saveSeatChanges = (updatedSeats) => {
-        socket.emit("save-seats", updatedSeats);
     };
 
     const eventHandler = (rowIndex, seatIndex) => {
@@ -73,7 +67,7 @@ export default function Seat() {
                     }
                 }
             }
-            saveSeatChanges(updatedSeats);
+            socket.emit("send-class", updatedSeats);
             setRows(updatedSeats);
         });
 
