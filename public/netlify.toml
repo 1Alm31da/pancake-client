@@ -1,6 +1,6 @@
 [[redirects]]
   from = "*"
-  to = "https://main--rad-biscuit-e4fd43.netlify.app/:splat"
+  to = "https://main--rad-biscuit-e4fd43.netlify.app"
   status = 200
 
 [[headers]]
