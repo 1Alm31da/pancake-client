@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "*"
+  to = "https://main--rad-biscuit-e4fd43.netlify.app/:splat"
+  status = 200
+
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
