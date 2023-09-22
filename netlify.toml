@@ -1,14 +1,9 @@
-[build]
-  publish = "build" # Change this to the directory where your React build files are located
+[[redirects]]
+  from = "*"
+  to = "https://main--rad-biscuit-e4fd43.netlify.app/:splat"
+  status = 200
 
 [[headers]]
   for = "/*"
-  [headers.values]
+    [headers.values]
     Access-Control-Allow-Origin = "*"
-    Access-Control-Allow-Methods = "GET, POST, OPTIONS"
-    Access-Control-Allow-Headers = "Content-Type, Authorization"
-
-[[redirects]]
-  from = "/api/*" # Change this to the path you want to proxy
-  to = "https://your-server-domain.com/:splat" # Change this to your server's URL
-  status = 200

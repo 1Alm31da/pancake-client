@@ -7,7 +7,7 @@ export default function Seat() {
     const [rows, setRows] = useState({})
 
     useEffect(() => {
-        const s = io("https://earnest-pegasus-1ebe1c.netlify.app");
+        const s = io("http://localhost:3001");
         setSocket(s);
 
         s.on("inicial-seats", (inicialState) => {
