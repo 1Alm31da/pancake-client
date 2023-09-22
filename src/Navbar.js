@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className='navbarMain'>
         <div className='left-text'>
-            <div className='back-option'> <a href='http://localhost:3000' target="_blank" rel="noreferrer" style={{cursor: "pointer"}}>‹</a></div>
+            <div className='back-option'> <a href='https://rad-biscuit-e4fd43.netlify.app' target="_blank" rel="noreferrer" style={{cursor: "pointer"}}>‹</a></div>
             <div className='game-modalidade'>
                 <strong>Futebol</strong>
                 <p className='game-liga'>Liga Betclic</p>
