@@ -7,7 +7,7 @@ export default function Seat() {
     const [rows, setRows] = useState({})
 
     useEffect(() => {
-        const s = io("https://earnest-pegasus-1ebe1c.netlify.app");
+        const s = io("https://earnest-pegasus-1ebe1c.netlify.app", { transports: ['websocket', 'polling', 'flashsocket'] });
         setSocket(s);
 
         s.on("inicial-seats", (inicialState) => {
